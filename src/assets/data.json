@@ -1,0 +1,1680 @@
+{
+    "Minnow": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+        ],
+        "water": [
+            "fresh",
+            "river"
+        ],
+        "water_text": "Fresh, River",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            },
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            },
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔄 Year-Round",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Bluegill": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+        ],
+        "water": [
+            "fresh",
+            "river"
+        ],
+        "water_text": "Fresh, River",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "summer": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "autumn": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔄 Year-Round",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Perch": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "autumn",
+            "winter"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            },
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring, 🍂 Autumn, ⛄ Winter",
+        "time_text": "Day (🌼 Spring, 🍂 Autumn), Night (⛄ Winter)",
+        "weather_text": "Any"
+    },
+    "Carp": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "summer",
+            "autumn",
+            "winter"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            },
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            },
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔄 Year-Round",
+        "time_text": "Day (🌼 Spring, 🔥 Summer, 🍂 Autumn), Night (⛄ Winter)",
+        "weather_text": "Rain (🌼 Spring), Any (🔥 Summer, 🍂 Autumn, ⛄ Winter)"
+    },
+    "Raw Beaked Herring": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Raw Hatchetfish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "winter"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring, ⛄ Winter",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Raw Eyelash": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            }
+        },
+        "season_text": "🌼 Spring",
+        "time_text": "Night",
+        "weather_text": "Clear"
+    },
+    "Atlantic Herring": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "winter"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring, ⛄ Winter",
+        "time_text": "Any",
+        "weather_text": "Any"
+    },
+    "Pufferfish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "summer",
+            "autumn"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            },
+            "summer": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            },
+            "autumn": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            }
+        },
+        "season_text": "🌼 Spring, 🔥 Summer, 🍂 Autumn",
+        "time_text": "Night",
+        "weather_text": "Clear"
+    },
+    "Jellyfish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "summer"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "summer": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring, 🔥 Summer",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Tropical Fish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "summer"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "summer": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring, 🔥 Summer",
+        "time_text": "Any",
+        "weather_text": "Any"
+    },
+    "Raw Drooping Gourami": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Atlantic Halibut": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🌼 Spring",
+        "time_text": "Day",
+        "weather_text": "Rain"
+    },
+    "Raw Spindlefish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Smallmouth Bass": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "summer",
+            "autumn"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "summer": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring, 🔥 Summer, 🍂 Autumn",
+        "time_text": "Any (🌼 Spring, 🔥 Summer), Day (🍂 Autumn)",
+        "weather_text": "Any"
+    },
+    "Cod": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "winter"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring, ⛄ Winter",
+        "time_text": "Any",
+        "weather_text": "Any"
+    },
+    "Pink Salmon": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring",
+            "winter"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring, ⛄ Winter",
+        "time_text": "Night (🌼 Spring), Day (⛄ Winter)",
+        "weather_text": "Any"
+    },
+    "Catfish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🌼 Spring",
+        "time_text": "Night",
+        "weather_text": "Rain"
+    },
+    "Bayad": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🌼 Spring",
+        "time_text": "Night",
+        "weather_text": "Rain"
+    },
+    "Raw Blind Sailfin": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "spring"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "spring": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🌼 Spring",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Leech": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "fresh",
+            "river"
+        ],
+        "water_text": "Fresh, River",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Piranha": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Night",
+        "weather_text": "Rain"
+    },
+    "Boulti": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Koi Fish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Day",
+        "weather_text": "Clear"
+    },
+    "Arapaima": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Day",
+        "weather_text": "Rain"
+    },
+    "Raw Circus Fish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Raw Sneep Snorp": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Red Grouper": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Tuna": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Capitaine": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Goldfish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Day",
+        "weather_text": "Clear"
+    },
+    "Salmon": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer",
+            "autumn"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            },
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔥 Summer, 🍂 Autumn",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Synodontis": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Day",
+        "weather_text": "Clear"
+    },
+    "Tambaqui": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Box Turtle": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "summer"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "summer": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🔥 Summer",
+        "time_text": "Night",
+        "weather_text": "Rain"
+    },
+    "Gar": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Day",
+        "weather_text": "Rain"
+    },
+    "Raw Bark Angelfish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Raw Amber Goby": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Night",
+        "weather_text": "Clear"
+    },
+    "Blackfish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn",
+            "winter"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🍂 Autumn, ⛄ Winter",
+        "time_text": "Any",
+        "weather_text": "Any"
+    },
+    "Raw Picklefish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Night",
+        "weather_text": "Rain"
+    },
+    "Raw Forkfish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Any",
+        "weather_text": "Any"
+    },
+    "Raw Sailor Barb": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Raw Demon Herring": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Raw Copperflame Anthias": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn",
+            "winter"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            },
+            "winter": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            }
+        },
+        "season_text": "🍂 Autumn, ⛄ Winter",
+        "time_text": "Night",
+        "weather_text": "Clear"
+    },
+    "Red Shrooma": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Day",
+        "weather_text": "Rain"
+    },
+    "Brown Trout": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn",
+            "winter"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            },
+            "winter": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🍂 Autumn, ⛄ Winter",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Muskellunge": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Arrau Turtle": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "autumn"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "autumn": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "🍂 Autumn",
+        "time_text": "Night",
+        "weather_text": "Rain"
+    },
+    "Raw Snowflake": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": true,
+                    "night": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Any",
+        "weather_text": "Rain/Snow"
+    },
+    "Raw Aero Mono": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "fresh"
+        ],
+        "water_text": "Fresh",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Pollock": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Day",
+        "weather_text": "Rain/Snow"
+    },
+    "Atlantic Cod": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Raw Triple Twirl Pleco": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Night",
+        "weather_text": "Any"
+    },
+    "Pacific Halibut": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": true
+                },
+                "weather": {}
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Day",
+        "weather_text": "Any"
+    },
+    "Brown Shrooma": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "ocean"
+        ],
+        "water_text": "Ocean",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Day",
+        "weather_text": "Rain/Snow"
+    },
+    "Raw Duality Damselfish": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "clear": true
+                }
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Night",
+        "weather_text": "Clear"
+    },
+    "Rainbow Trout": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Day",
+        "weather_text": "Rain/Snow"
+    },
+    "Starshell Turtle": {
+        "dim": "overworld",
+        "done": false,
+        "highlighted": false,
+        "seasons": [
+            "winter"
+        ],
+        "water": [
+            "river"
+        ],
+        "water_text": "River",
+        "season_data": {
+            "winter": {
+                "time": {
+                    "day": false,
+                    "night": true
+                },
+                "weather": {
+                    "rain": true
+                }
+            }
+        },
+        "season_text": "⛄ Winter",
+        "time_text": "Night",
+        "weather_text": "Rain/Snow"
+    },
+    "Blazefish": {
+        "biome": "Any",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Bonefish": {
+        "biome": "Nether Wastes",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Eyeball Fish": {
+        "biome": "Crimson Forest",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Fortress Grouper": {
+        "biome": "Any",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Glowdine": {
+        "biome": "Warped Forest",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Lava Pufferfish": {
+        "biome": "Any",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Magma Cube Fish": {
+        "biome": "Basalt Deltas",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Obsidianfish": {
+        "biome": "Basalt Deltas",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Searing Cod": {
+        "biome": "Any",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Soul Sucker": {
+        "biome": "Soul Sand Valley",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    },
+    "Wither Bonefish": {
+        "biome": "Soul Sand Valley",
+        "done": false,
+        "highlighted": false,
+        "dim": "nether"
+    }
+}
