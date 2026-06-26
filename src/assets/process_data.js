@@ -287,6 +287,7 @@ Object.keys(global).forEach(list => {
 	global[list].forEach((elem) => {
 
 		elem.name = elem.fish.split(':')[1]
+			.replace('raw_', '')
 			.split('_')
 			.join(' ')
 			.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
@@ -548,10 +549,29 @@ Object.keys(fishes).forEach(name => {
 
 fishes = {...fishes, ...nether_fish}
 
+// Fix names coming from item id and in-game name mismatch
+fishes['Eyelash Fish'] = fishes['Eyelash']
+fishes['Hatchet Fish'] = fishes['Hatchetfish']
+fishes['Frosty Fin'] = fishes['Snowflake']
+delete fishes['Eyelash']
+delete fishes['Hatchetfish']
+delete fishes['Snowflake']
+
+
+let ordered_fishes = Object.keys(fishes).sort().reduce(
+	(obj, key) => { 
+		obj[key] = fishes[key]; 
+		return obj;
+	}, 
+  	{}
+);
+
+
+
 
 fs.writeFile(
 	'src/assets/data.json',
-	JSON.stringify(fishes, undefined, 4),
+	JSON.stringify(ordered_fishes, undefined, 4),
 	'utf8',
 	() => console.log('processed')
 );
