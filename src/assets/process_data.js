@@ -12,6 +12,7 @@ let global = {}
 
 // #region --- Data-in ---
 
+// Data copied from kubejs files
 // Spring Fish
 global.springOcean = [
 	{ fish: "aquaculture:atlantic_herring", weight: 16 },
@@ -363,8 +364,8 @@ Object.keys(data).forEach(season => {
 						night: false,
 					},
 					weather: {
-						clear: false,
-						rain: false,
+						clear: true,
+						rain: true,
 					}
 				}
 				// fishes[fish.name].seasons[season][water] = {
@@ -379,13 +380,9 @@ Object.keys(data).forEach(season => {
 
 
 			fishes[fish.name].seasons[season][water].time.day ||= !fish.night
-			fishes[fish.name].seasons[season][water].time.night ||= fish.night
-			fishes[fish.name].seasons[season][water].weather.clear ||= fish.requiresClear
-			fishes[fish.name].seasons[season][water].weather.rain ||= fish.requiresRain
-			// fishes[fish.name].seasons[season][water].day ||= !fish.night
-			// fishes[fish.name].seasons[season][water].night ||= fish.night
-			// fishes[fish.name].seasons[season][water].clear ||= fish.requiresClear
-			// fishes[fish.name].seasons[season][water].rain ||= fish.requiresRain
+			if(fish.night) fishes[fish.name].seasons[season][water].time.night = true
+			if(fish.requiresClear) fishes[fish.name].seasons[season][water].weather.rain = false
+			if(fish.requiresRain) fishes[fish.name].seasons[season][water].weather.clear = false
 
 
 		})
@@ -461,16 +458,15 @@ Object.keys(fishes).forEach(name => {
 	fishes[name].season_data = fishes[name].seasons
 	// Season list
 	fishes[name].seasons = Object.keys(fishes[name].seasons)
+	if(fishes[name].seasons.length == 4) fishes[name].seasons = ['year_round']
 
 	// Season display text
-	fishes[name].season_text = 
-		fishes[name].seasons.length == 4 ? 
-			'🔄 Year-Round' :
-			fishes[name].seasons.join(', ')
-				.replace('spring', '🌼 Spring')
-				.replace('summer', '🔥 Summer')
-				.replace('autumn', '🍂 Autumn')
-				.replace('winter', '⛄ Winter')
+	fishes[name].season_text = fishes[name].seasons.join(', ')
+								.replace('spring', '🌼 Spring')
+								.replace('summer', '🔥 Summer')
+								.replace('autumn', '🍂 Autumn')
+								.replace('winter', '⛄ Winter')
+								.replace('year_round', '🔄 Year-Round')
 
 
 	
@@ -482,12 +478,16 @@ Object.keys(fishes).forEach(name => {
 		let season_time = ''
 
 		// Season time
-		if( time.day ) {
+		// if( time.day ) {
 
-			if( time.night ) season_time += 'Any'
-			else season_time += 'Day'
+		// 	if( time.night ) season_time += 'Any'
+		// 	else season_time += 'Day'
 
-		} else season_time += 'Night'
+		// } else season_time += 'Night'
+
+		if( time.day ) season_time = 'Day'
+		if( time.night ) season_time = 'Night'
+		if( time.day && time.night ) season_time = 'Day / Night'
 
 
 		// Add season indicator if not unambiguous 
@@ -503,15 +503,19 @@ Object.keys(fishes).forEach(name => {
 		let season_weather = ''
 
 		// Season weather
-		if( weather.rain ) {
-			season_weather += 'Rain'
+		// if( weather.rain ) {
+		// 	season_weather += 'Rain'
 
-			if(seasons.includes('winter')) season_weather += '/Snow'
-		}
-		else {
-			if( weather.clear ) season_weather += 'Clear'
-			else season_weather += 'Any'
-		}
+		// 	if(seasons.includes('winter')) season_weather += '/Snow'
+		// }
+		// else {
+		// 	if( weather.clear ) season_weather += 'Clear'
+		// 	else season_weather += 'Any'
+		// }
+
+		if( weather.clear ) season_weather = 'Clear'
+		if( weather.rain ) season_weather = 'Rain'
+		if( weather.clear && weather.rain ) season_weather = 'Clear / Rain'
 
 		// Add season indicator if not unambiguous 
 		if( Object.keys(weathers).length > 1 ) {
@@ -536,12 +540,6 @@ Object.keys(fishes).forEach(name => {
 
 
 // #endregion
-
-
-
-
-
-
 
 
 

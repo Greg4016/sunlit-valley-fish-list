@@ -13,14 +13,18 @@
         "season_data": {
             "winter": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "⛄ Winter",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Amber Goby": {
         "dim": "overworld",
@@ -40,7 +44,8 @@
                     "night": true
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             }
         },
@@ -62,9 +67,11 @@
         "season_data": {
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -91,6 +98,7 @@
                     "night": true
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -113,14 +121,18 @@
         "season_data": {
             "winter": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "⛄ Winter",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Atlantic Halibut": {
         "dim": "overworld",
@@ -136,9 +148,11 @@
         "season_data": {
             "spring": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -165,19 +179,25 @@
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring, ⛄ Winter",
-        "time_text": "Any",
-        "weather_text": "Any"
+        "time_text": "Day / Night",
+        "weather_text": "Clear / Rain"
     },
     "Bark Angelfish": {
         "dim": "overworld",
@@ -193,14 +213,18 @@
         "season_data": {
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🍂 Autumn",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Bayad": {
         "dim": "overworld",
@@ -220,6 +244,7 @@
                     "night": true
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -242,14 +267,18 @@
         "season_data": {
             "spring": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Blackfish": {
         "dim": "overworld",
@@ -269,19 +298,25 @@
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🍂 Autumn, ⛄ Winter",
-        "time_text": "Any",
-        "weather_text": "Any"
+        "time_text": "Day / Night",
+        "weather_text": "Clear / Rain"
     },
     "Blazefish": {
         "biome": "Any",
@@ -303,24 +338,25 @@
         "season_data": {
             "spring": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Bluegill": {
         "dim": "overworld",
         "done": false,
         "highlighted": false,
         "seasons": [
-            "spring",
-            "summer",
-            "autumn",
-            "winter"
+            "year_round"
         ],
         "water": [
             "fresh",
@@ -333,33 +369,45 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "summer": {
                 "time": {
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "autumn": {
                 "time": {
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔄 Year-Round",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Bonefish": {
         "biome": "Nether Wastes",
@@ -384,12 +432,15 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔥 Summer",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Box Turtle": {
         "dim": "overworld",
@@ -409,6 +460,7 @@
                     "night": true
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -431,16 +483,18 @@
         "season_data": {
             "winter": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
         },
         "season_text": "⛄ Winter",
         "time_text": "Day",
-        "weather_text": "Rain/Snow"
+        "weather_text": "Rain"
     },
     "Brown Trout": {
         "dim": "overworld",
@@ -457,20 +511,28 @@
         "season_data": {
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🍂 Autumn, ⛄ Winter",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Capitaine": {
         "dim": "overworld",
@@ -486,24 +548,25 @@
         "season_data": {
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔥 Summer",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Carp": {
         "dim": "overworld",
         "done": false,
         "highlighted": false,
         "seasons": [
-            "spring",
-            "summer",
-            "autumn",
-            "winter"
+            "year_round"
         ],
         "water": [
             "fresh"
@@ -512,35 +575,48 @@
         "season_data": {
             "spring": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             },
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔄 Year-Round",
         "time_text": "Day (🌼 Spring, 🔥 Summer, 🍂 Autumn), Night (⛄ Winter)",
-        "weather_text": "Rain (🌼 Spring), Any (🔥 Summer, 🍂 Autumn, ⛄ Winter)"
+        "weather_text": "Rain (🌼 Spring), Clear / Rain (🔥 Summer, 🍂 Autumn, ⛄ Winter)"
     },
     "Catfish": {
         "dim": "overworld",
@@ -560,6 +636,7 @@
                     "night": true
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -582,14 +659,18 @@
         "season_data": {
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔥 Summer",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Cod": {
         "dim": "overworld",
@@ -609,19 +690,25 @@
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring, ⛄ Winter",
-        "time_text": "Any",
-        "weather_text": "Any"
+        "time_text": "Day / Night",
+        "weather_text": "Clear / Rain"
     },
     "Copperflame Anthias": {
         "dim": "overworld",
@@ -642,7 +729,8 @@
                     "night": true
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             },
             "winter": {
@@ -651,7 +739,8 @@
                     "night": true
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             }
         },
@@ -676,12 +765,15 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🍂 Autumn",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Drooping Gourami": {
         "dim": "overworld",
@@ -697,14 +789,18 @@
         "season_data": {
             "spring": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Duality Damselfish": {
         "dim": "overworld",
@@ -724,7 +820,8 @@
                     "night": true
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             }
         },
@@ -756,7 +853,8 @@
                     "night": true
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             }
         },
@@ -781,12 +879,15 @@
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🍂 Autumn",
-        "time_text": "Any",
-        "weather_text": "Any"
+        "time_text": "Day / Night",
+        "weather_text": "Clear / Rain"
     },
     "Fortress Grouper": {
         "biome": "Any",
@@ -812,13 +913,14 @@
                     "night": true
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
         },
         "season_text": "⛄ Winter",
-        "time_text": "Any",
-        "weather_text": "Rain/Snow"
+        "time_text": "Day / Night",
+        "weather_text": "Rain"
     },
     "Gar": {
         "dim": "overworld",
@@ -834,9 +936,11 @@
         "season_data": {
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -865,10 +969,12 @@
         "season_data": {
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             }
         },
@@ -894,19 +1000,25 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring, ⛄ Winter",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Jellyfish": {
         "dim": "overworld",
@@ -926,19 +1038,25 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "summer": {
                 "time": {
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring, 🔥 Summer",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Koi Fish": {
         "dim": "overworld",
@@ -954,10 +1072,12 @@
         "season_data": {
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             }
         },
@@ -989,12 +1109,15 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔥 Summer",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Magma Cube Fish": {
         "biome": "Basalt Deltas",
@@ -1007,10 +1130,7 @@
         "done": false,
         "highlighted": false,
         "seasons": [
-            "spring",
-            "summer",
-            "autumn",
-            "winter"
+            "year_round"
         ],
         "water": [
             "fresh",
@@ -1020,32 +1140,48 @@
         "season_data": {
             "spring": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔄 Year-Round",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Muskellunge": {
         "dim": "overworld",
@@ -1064,12 +1200,15 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🍂 Autumn",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Obsidianfish": {
         "biome": "Basalt Deltas",
@@ -1091,14 +1230,18 @@
         "season_data": {
             "winter": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "⛄ Winter",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Perch": {
         "dim": "overworld",
@@ -1116,27 +1259,38 @@
         "season_data": {
             "spring": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring, 🍂 Autumn, ⛄ Winter",
         "time_text": "Day (🌼 Spring, 🍂 Autumn), Night (⛄ Winter)",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Picklefish": {
         "dim": "overworld",
@@ -1156,6 +1310,7 @@
                     "night": true
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -1182,18 +1337,25 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "winter": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring, ⛄ Winter",
         "time_text": "Night (🌼 Spring), Day (⛄ Winter)",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Piranha": {
         "dim": "overworld",
@@ -1213,6 +1375,7 @@
                     "night": true
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -1235,16 +1398,18 @@
         "season_data": {
             "winter": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
         },
         "season_text": "⛄ Winter",
         "time_text": "Day",
-        "weather_text": "Rain/Snow"
+        "weather_text": "Rain"
     },
     "Pufferfish": {
         "dim": "overworld",
@@ -1266,7 +1431,8 @@
                     "night": true
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             },
             "summer": {
@@ -1275,7 +1441,8 @@
                     "night": true
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             },
             "autumn": {
@@ -1284,7 +1451,8 @@
                     "night": true
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             }
         },
@@ -1306,16 +1474,18 @@
         "season_data": {
             "winter": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
         },
         "season_text": "⛄ Winter",
         "time_text": "Day",
-        "weather_text": "Rain/Snow"
+        "weather_text": "Rain"
     },
     "Red Grouper": {
         "dim": "overworld",
@@ -1334,12 +1504,15 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔥 Summer",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Red Shrooma": {
         "dim": "overworld",
@@ -1355,9 +1528,11 @@
         "season_data": {
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
@@ -1380,14 +1555,18 @@
         "season_data": {
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🍂 Autumn",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Salmon": {
         "dim": "overworld",
@@ -1404,20 +1583,28 @@
         "season_data": {
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔥 Summer, 🍂 Autumn",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Searing Cod": {
         "biome": "Any",
@@ -1444,25 +1631,35 @@
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "summer": {
                 "time": {
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "autumn": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring, 🔥 Summer, 🍂 Autumn",
-        "time_text": "Any (🌼 Spring, 🔥 Summer), Day (🍂 Autumn)",
-        "weather_text": "Any"
+        "time_text": "Day / Night (🌼 Spring, 🔥 Summer), Day (🍂 Autumn)",
+        "weather_text": "Clear / Rain"
     },
     "Sneep Snorp": {
         "dim": "overworld",
@@ -1478,14 +1675,18 @@
         "season_data": {
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔥 Summer",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Soul Sucker": {
         "biome": "Soul Sand Valley",
@@ -1510,12 +1711,15 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Starshell Turtle": {
         "dim": "overworld",
@@ -1535,13 +1739,14 @@
                     "night": true
                 },
                 "weather": {
+                    "clear": false,
                     "rain": true
                 }
             }
         },
         "season_text": "⛄ Winter",
         "time_text": "Night",
-        "weather_text": "Rain/Snow"
+        "weather_text": "Rain"
     },
     "Synodontis": {
         "dim": "overworld",
@@ -1557,10 +1762,12 @@
         "season_data": {
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
                 "weather": {
-                    "clear": true
+                    "clear": true,
+                    "rain": false
                 }
             }
         },
@@ -1585,12 +1792,15 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔥 Summer",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Triple Twirl Pleco": {
         "dim": "overworld",
@@ -1609,12 +1819,15 @@
                     "day": false,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "⛄ Winter",
         "time_text": "Night",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Tropical Fish": {
         "dim": "overworld",
@@ -1634,19 +1847,25 @@
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             },
             "summer": {
                 "time": {
                     "day": true,
                     "night": true
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🌼 Spring, 🔥 Summer",
-        "time_text": "Any",
-        "weather_text": "Any"
+        "time_text": "Day / Night",
+        "weather_text": "Clear / Rain"
     },
     "Tuna": {
         "dim": "overworld",
@@ -1662,14 +1881,18 @@
         "season_data": {
             "summer": {
                 "time": {
-                    "day": true
+                    "day": true,
+                    "night": false
                 },
-                "weather": {}
+                "weather": {
+                    "clear": true,
+                    "rain": true
+                }
             }
         },
         "season_text": "🔥 Summer",
         "time_text": "Day",
-        "weather_text": "Any"
+        "weather_text": "Clear / Rain"
     },
     "Wither Bonefish": {
         "biome": "Soul Sand Valley",
