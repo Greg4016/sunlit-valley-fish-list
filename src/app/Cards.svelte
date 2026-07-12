@@ -20,19 +20,21 @@
         >
             <!-- svelte-ignore a11y_missing_attribute -->
             <img src="/fish_pics/{filtered[name].file_name}.png" />
-            <div>{filtered[name].id}</div>
+            <div class="data">
 
-            <div class="name">{name}</div>
-
-            {#if filtered[name].dim == 'overworld'}
-                <div>Season: { filtered[name].season_text }</div>
-                <div>Water: { filtered[name].water_text }</div>
-                <div>Time: { filtered[name].time_text }</div>
-                <div>Weather: { filtered[name].weather_text }</div>
-            {:else if filtered[name].dim == 'nether'}
-                <div>Dimension: Nether</div>
-                <div>Biome: { filtered[name].biome }</div>
-            {/if}
+                
+                <div class="name">{name}</div>
+                
+                {#if filtered[name].dim == 'overworld'}
+                    <div>Season: { filtered[name].season_text }</div>
+                    <div>Water: { filtered[name].water_text }</div>
+                    <div>Time: { filtered[name].time_text }</div>
+                    <div>Weather: { filtered[name].weather_text }</div>
+                {:else if filtered[name].dim == 'nether'}
+                    <div>Dimension: Nether</div>
+                    <div>Biome: { filtered[name].biome }</div>
+                {/if}
+            </div>
         </div>
 
 
@@ -57,32 +59,39 @@
             height: fit-content;
             min-width: 13em;
             width: fit-content;
-            padding: 10px;
+            padding: 10px 15px;
+
+            display: flex;
+            gap: 20px;
+            align-items: center;
 
             text-align: left;
             background-color: var(--card-bg);
             color: var(--col);
             font-size: large;
             font-weight: 600;
-            border-radius: 10px;
-            border: 6px solid var(--card-border);
+            border-radius: 8px;
+            border: 4px solid var(--card-border);
             text-wrap: nowrap;
             user-select: none;
 
 
             img {
-                width: 64px;
+                height: 80px;
                 aspect-ratio: 1;
                 image-rendering: pixelated;
             }
 
 
-            .name {
-                margin-bottom: 12px;
+            .data {
 
-                text-align: center;
-                border-bottom: 4px solid var(--card-border);
+                .name {
+                    margin-bottom: 12px;
+                    font-size: 1.5em;
+                    
+                }
             }
+
 
             &.done {
                 opacity: 50%;
