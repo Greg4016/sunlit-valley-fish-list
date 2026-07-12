@@ -341,10 +341,12 @@
         "weather_text": "Clear / Rain"
     },
     "Blazefish": {
-        "biome": "Any",
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:blazefish",
+        "file_name": "blazefish",
+        "biome": "Any"
     },
     "Blind Sailfin": {
         "dim": "overworld",
@@ -436,10 +438,12 @@
         "weather_text": "Clear / Rain"
     },
     "Bonefish": {
-        "biome": "Nether Wastes",
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:bonefish",
+        "file_name": "bonefish",
+        "biome": "Nether Wastes"
     },
     "Boulti": {
         "dim": "overworld",
@@ -882,10 +886,12 @@
         "weather_text": "Clear"
     },
     "Eyeball Fish": {
-        "biome": "Crimson Forest",
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:eyeball_fish",
+        "file_name": "eyeball_fish",
+        "biome": "Crimson Forest"
     },
     "Eyelash Fish": {
         "dim": "overworld",
@@ -946,10 +952,12 @@
         "weather_text": "Clear / Rain"
     },
     "Fortress Grouper": {
-        "biome": "Any",
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:fortress_grouper",
+        "file_name": "fortress_grouper",
+        "biome": "Any"
     },
     "Frosty Fin": {
         "dim": "overworld",
@@ -1010,10 +1018,12 @@
         "weather_text": "Rain"
     },
     "Glowdine": {
-        "biome": "Warped Forest",
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:glowdine",
+        "file_name": "glowdine",
+        "biome": "Warped Forest"
     },
     "Goldfish": {
         "dim": "overworld",
@@ -1154,10 +1164,12 @@
         "weather_text": "Clear"
     },
     "Lava Pufferfish": {
-        "biome": "Any",
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:lava_pufferfish",
+        "file_name": "lava_pufferfish",
+        "biome": "Any"
     },
     "Leech": {
         "dim": "overworld",
@@ -1189,11 +1201,13 @@
         "time_text": "Night",
         "weather_text": "Clear / Rain"
     },
-    "Magma Cube Fish": {
-        "biome": "Basalt Deltas",
+    "Magmacubefish": {
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:magmacubefish",
+        "file_name": "magmacubefish",
+        "biome": "Basalt Deltas"
     },
     "Minnow": {
         "dim": "overworld",
@@ -1285,10 +1299,12 @@
         "weather_text": "Clear / Rain"
     },
     "Obsidianfish": {
-        "biome": "Basalt Deltas",
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:obsidianfish",
+        "file_name": "obsidianfish",
+        "biome": "Basalt Deltas"
     },
     "Pacific Halibut": {
         "dim": "overworld",
@@ -1705,10 +1721,12 @@
         "weather_text": "Clear / Rain"
     },
     "Searing Cod": {
-        "biome": "Any",
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:searing_cod",
+        "file_name": "searing_cod",
+        "biome": "Any"
     },
     "Smallmouth Bass": {
         "dim": "overworld",
@@ -1790,11 +1808,13 @@
         "time_text": "Day",
         "weather_text": "Clear / Rain"
     },
-    "Soul Sucker": {
-        "biome": "Soul Sand Valley",
+    "Soulsucker": {
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:soulsucker",
+        "file_name": "soulsucker",
+        "biome": "Soul Sand Valley"
     },
     "Spindlefish": {
         "dim": "overworld",
@@ -2011,9 +2031,11 @@
         "weather_text": "Clear / Rain"
     },
     "Wither Bonefish": {
-        "biome": "Soul Sand Valley",
         "done": false,
         "highlighted": false,
-        "dim": "nether"
+        "dim": "nether",
+        "id": "netherdepthsupgrade:wither_bonefish",
+        "file_name": "wither_bonefish",
+        "biome": "Soul Sand Valley"
     }
 }

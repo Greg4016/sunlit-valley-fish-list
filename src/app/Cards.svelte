@@ -10,45 +10,31 @@
 <div class="main">
     {#each Object.keys(filtered) as name }
 
-        {#if filtered[name].dim == 'overworld'}
-                
-            <div class="card" 
-                class:done={filtered[name].done} 
-                class:highlighted={filtered[name].highlighted} 
+        <div class="card" 
+            class:nether={filtered[name].dim == 'nether'} 
+            class:done={filtered[name].done} 
+            class:highlighted={filtered[name].highlighted} 
 
-                onclick={() => { filtered[name].done = !filtered[name].done }}
-                oncontextmenu={(ev) => { ev.preventDefault(); filtered[name].highlighted = !filtered[name].highlighted }}
-            >
-                {#if filtered[name].file_name}
-                    <!-- svelte-ignore a11y_missing_attribute -->
-                    <img src="/fish_pics/{filtered[name].file_name}.png" />
-                    <div>{filtered[name].id}</div>
-                {/if}
-                <div class="name">{name}</div>
+            onclick={() => { filtered[name].done = !filtered[name].done }}
+            oncontextmenu={(ev) => { ev.preventDefault(); filtered[name].highlighted = !filtered[name].highlighted }}
+        >
+            <!-- svelte-ignore a11y_missing_attribute -->
+            <img src="/fish_pics/{filtered[name].file_name}.png" />
+            <div>{filtered[name].id}</div>
+
+            <div class="name">{name}</div>
+
+            {#if filtered[name].dim == 'overworld'}
                 <div>Season: { filtered[name].season_text }</div>
                 <div>Water: { filtered[name].water_text }</div>
                 <div>Time: { filtered[name].time_text }</div>
                 <div>Weather: { filtered[name].weather_text }</div>
-                <!-- <div>Weather: {filtered[name].weather}</div>
-                <div>Water: {filtered[name].water}</div>
-                <div>Time: {filtered[name].time}</div> -->
-            </div>
-        {:else if filtered[name].dim == 'nether'}
-            <div class="card nether" 
-                class:done={filtered[name].done} 
-                class:highlighted={filtered[name].highlighted} 
-
-                onclick={() => { filtered[name].done = !filtered[name].done }}
-                oncontextmenu={(ev) => { ev.preventDefault(); filtered[name].highlighted = !filtered[name].highlighted }}
-            >
-                <div class="name">{name}</div>
+            {:else if filtered[name].dim == 'nether'}
                 <div>Dimension: Nether</div>
                 <div>Biome: { filtered[name].biome }</div>
-                <!-- <div>Weather: {filtered[name].weather}</div>
-                <div>Water: {filtered[name].water}</div>
-                <div>Time: {filtered[name].time}</div> -->
-            </div>
-        {/if}
+            {/if}
+        </div>
+
 
     {/each}
 </div>

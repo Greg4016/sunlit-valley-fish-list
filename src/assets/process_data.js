@@ -210,79 +210,160 @@ global.winterFresh = [
 ];
 
 // Nether
-let nether_fish = {
-	"Blazefish": {
-		biome: "Any",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
+let init_nether_fish = [
+	{
+		"type": "minecraft:item",
+		"weight": 10,
+		"name": "netherdepthsupgrade:searing_cod"
 	},
-	"Bonefish": {
-		biome: "Nether Wastes",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
+	{
+		"type": "minecraft:item",
+		"weight": 15,
+		"name": "netherdepthsupgrade:glowdine",
+		"conditions": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+				"biome": "minecraft:warped_forest"
+				}
+			}
+			]
+		}
+		]
 	},
-	"Eyeball Fish": {
-		biome: "Crimson Forest",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
+	{
+		"type": "minecraft:item",
+		"weight": 10,
+		"name": "netherdepthsupgrade:wither_bonefish",
+		"conditions": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+				"biome": "minecraft:soul_sand_valley"
+				}
+			}
+			]
+		}
+		]
 	},
-	"Fortress Grouper": {
-		biome: "Any",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
+	{
+		"type": "minecraft:item",
+		"weight": 10,
+		"name": "netherdepthsupgrade:lava_pufferfish"
 	},
-	"Glowdine": {
-		biome: "Warped Forest",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
+	{
+		"type": "minecraft:item",
+		"weight": 3,
+		"name": "netherdepthsupgrade:bonefish",
+		"conditions": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+				"biome": "minecraft:nether_wastes"
+				}
+			}
+			]
+		}
+		]
 	},
-	"Lava Pufferfish": {
-		biome: "Any",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
+	{
+		"type": "minecraft:item",
+		"weight": 13,
+		"name": "netherdepthsupgrade:obsidianfish",
+		"conditions": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+				"biome": "minecraft:basalt_deltas"
+				}
+			}
+			]
+		}
+		]
+	},{
+		"type": "minecraft:item",
+		"weight": 10,
+		"name": "netherdepthsupgrade:magmacubefish",
+		"conditions": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+				"biome": "minecraft:basalt_deltas"
+				}
+			}
+			]
+		}
+		]
 	},
-	"Magma Cube Fish": {
-		biome: "Basalt Deltas",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
+	{
+		"type": "minecraft:item",
+		"weight": 10,
+		"name": "netherdepthsupgrade:soulsucker",
+		"conditions": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+				"biome": "minecraft:soul_sand_valley"
+				}
+			}
+			]
+		}
+		]
 	},
-	"Obsidianfish": {
-		biome: "Basalt Deltas",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
+	{
+		"type": "minecraft:item",
+		"weight": 5,
+		"name": "netherdepthsupgrade:eyeball_fish",
+		"conditions": [
+		{
+			"condition": "minecraft:any_of",
+			"terms": [
+			{
+				"condition": "minecraft:location_check",
+				"predicate": {
+				"biome": "minecraft:crimson_forest"
+				}
+			}
+			]
+		}
+		]
 	},
-	"Searing Cod": {
-		biome: "Any",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
+	{
+		"type": "minecraft:item",
+		"weight": 3,
+		"name": "netherdepthsupgrade:fortress_grouper"
 	},
-	"Soul Sucker": {
-		biome: "Soul Sand Valley",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
-	},
-	"Wither Bonefish": {
-		biome: "Soul Sand Valley",
-		done: false,
-		highlighted: false,
-		dim: 'nether',
-	},
-}
+	{
+		"type": "minecraft:item",
+		"weight": 6,
+		"name": "netherdepthsupgrade:blazefish"
+	}
+]
 
 // #endregion
 
 
 // #region --- Data first pass ---
+
+// Overworld fish
 Object.keys(global).forEach(list => {
 
 	global[list].forEach((elem) => {
@@ -324,6 +405,43 @@ let data = {
 	},
 
 }
+
+
+// Nether fish
+let nether_fish = {}
+
+init_nether_fish.forEach((elem) => {
+		
+	elem.id = elem.name
+	elem.file_name = elem.name.split(':')[1]
+
+	elem.name = elem.name.split(':')[1]
+		.replace('raw_', '')
+		.split('_')
+		.join(' ')
+		.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
+
+
+	nether_fish[elem.name] = {
+		done: false,
+		highlighted: false,
+		dim: 'nether',
+		id: elem.id,
+		file_name: elem.file_name,
+	}
+
+	if( elem.hasOwnProperty('conditions') ) {
+		nether_fish[elem.name].biome = 
+			elem.conditions[0].terms[0].predicate.biome
+				.split(':')[1]
+				.split('_')
+				.join(' ')
+				.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
+	} else {
+		nether_fish[elem.name].biome = 'Any'
+	}
+})
+
 
 // #endregion
 
