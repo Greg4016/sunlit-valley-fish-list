@@ -286,6 +286,9 @@ let nether_fish = {
 Object.keys(global).forEach(list => {
 
 	global[list].forEach((elem) => {
+		
+		elem.id = elem.fish
+		elem.file_name = elem.fish.split(':')[1]
 
 		elem.name = elem.fish.split(':')[1]
 			.replace('raw_', '')
@@ -343,7 +346,9 @@ Object.keys(data).forEach(season => {
 					dim: 'overworld',
 					done: false,
 					highlighted: false,
-					seasons: {}
+					seasons: {},
+					id: fish.id,
+					file_name: fish.file_name
 				}
 
 			}
@@ -549,10 +554,13 @@ fishes = {...fishes, ...nether_fish}
 
 // Fix names coming from item id and in-game name mismatch
 fishes['Eyelash Fish'] = fishes['Eyelash']
-fishes['Hatchet Fish'] = fishes['Hatchetfish']
-fishes['Frosty Fin'] = fishes['Snowflake']
+fishes['Eyelash Fish'].file_name = "raw_eyelash_fish"
 delete fishes['Eyelash']
+fishes['Bark Angelfish'].file_name = "raw_bark_angel"
+fishes['Hatchet Fish'] = fishes['Hatchetfish']
 delete fishes['Hatchetfish']
+fishes['Frosty Fin'] = fishes['Snowflake']
+fishes['Frosty Fin'].file_name = "raw_snowflake_tail_fish"
 delete fishes['Snowflake']
 
 

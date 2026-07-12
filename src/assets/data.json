@@ -6,6 +6,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "unusualfishmod:raw_aero_mono",
+        "file_name": "raw_aero_mono",
         "water": [
             "fresh"
         ],
@@ -33,6 +35,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "unusualfishmod:raw_amber_goby",
+        "file_name": "raw_amber_goby",
         "water": [
             "fresh"
         ],
@@ -60,6 +64,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:arapaima",
+        "file_name": "arapaima",
         "water": [
             "fresh"
         ],
@@ -87,6 +93,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "aquaculture:arrau_turtle",
+        "file_name": "arrau_turtle",
         "water": [
             "river"
         ],
@@ -114,6 +122,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "aquaculture:atlantic_cod",
+        "file_name": "atlantic_cod",
         "water": [
             "ocean"
         ],
@@ -141,6 +151,8 @@
         "seasons": [
             "spring"
         ],
+        "id": "aquaculture:atlantic_halibut",
+        "file_name": "atlantic_halibut",
         "water": [
             "ocean"
         ],
@@ -169,6 +181,8 @@
             "spring",
             "winter"
         ],
+        "id": "aquaculture:atlantic_herring",
+        "file_name": "atlantic_herring",
         "water": [
             "ocean"
         ],
@@ -206,6 +220,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "unusualfishmod:raw_bark_angelfish",
+        "file_name": "raw_bark_angel",
         "water": [
             "fresh"
         ],
@@ -233,6 +249,8 @@
         "seasons": [
             "spring"
         ],
+        "id": "aquaculture:bayad",
+        "file_name": "bayad",
         "water": [
             "river"
         ],
@@ -260,6 +278,8 @@
         "seasons": [
             "spring"
         ],
+        "id": "unusualfishmod:raw_beaked_herring",
+        "file_name": "raw_beaked_herring",
         "water": [
             "fresh"
         ],
@@ -288,6 +308,8 @@
             "autumn",
             "winter"
         ],
+        "id": "aquaculture:blackfish",
+        "file_name": "blackfish",
         "water": [
             "ocean"
         ],
@@ -331,6 +353,8 @@
         "seasons": [
             "spring"
         ],
+        "id": "unusualfishmod:raw_blind_sailfin",
+        "file_name": "raw_blind_sailfin",
         "water": [
             "river"
         ],
@@ -358,6 +382,8 @@
         "seasons": [
             "year_round"
         ],
+        "id": "aquaculture:bluegill",
+        "file_name": "bluegill",
         "water": [
             "fresh",
             "river"
@@ -422,6 +448,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:boulti",
+        "file_name": "boulti",
         "water": [
             "fresh"
         ],
@@ -449,6 +477,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:box_turtle",
+        "file_name": "box_turtle",
         "water": [
             "river"
         ],
@@ -476,6 +506,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "aquaculture:brown_shrooma",
+        "file_name": "brown_shrooma",
         "water": [
             "ocean"
         ],
@@ -504,6 +536,8 @@
             "autumn",
             "winter"
         ],
+        "id": "aquaculture:brown_trout",
+        "file_name": "brown_trout",
         "water": [
             "river"
         ],
@@ -541,6 +575,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:capitaine",
+        "file_name": "capitaine",
         "water": [
             "ocean"
         ],
@@ -568,6 +604,8 @@
         "seasons": [
             "year_round"
         ],
+        "id": "aquaculture:carp",
+        "file_name": "carp",
         "water": [
             "fresh"
         ],
@@ -625,6 +663,8 @@
         "seasons": [
             "spring"
         ],
+        "id": "aquaculture:catfish",
+        "file_name": "catfish",
         "water": [
             "river"
         ],
@@ -652,6 +692,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "unusualfishmod:raw_circus_fish",
+        "file_name": "raw_circus_fish",
         "water": [
             "fresh"
         ],
@@ -680,6 +722,8 @@
             "spring",
             "winter"
         ],
+        "id": "minecraft:cod",
+        "file_name": "cod",
         "water": [
             "river"
         ],
@@ -718,6 +762,8 @@
             "autumn",
             "winter"
         ],
+        "id": "unusualfishmod:raw_copperflame_anthias",
+        "file_name": "raw_copperflame_anthias",
         "water": [
             "ocean"
         ],
@@ -755,6 +801,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "unusualfishmod:raw_demon_herring",
+        "file_name": "raw_demon_herring",
         "water": [
             "ocean"
         ],
@@ -782,6 +830,8 @@
         "seasons": [
             "spring"
         ],
+        "id": "unusualfishmod:raw_drooping_gourami",
+        "file_name": "raw_drooping_gourami",
         "water": [
             "ocean"
         ],
@@ -809,6 +859,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "unusualfishmod:raw_duality_damselfish",
+        "file_name": "raw_duality_damselfish",
         "water": [
             "river"
         ],
@@ -842,6 +894,8 @@
         "seasons": [
             "spring"
         ],
+        "id": "unusualfishmod:raw_eyelash",
+        "file_name": "raw_eyelash_fish",
         "water": [
             "fresh"
         ],
@@ -869,6 +923,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "unusualfishmod:raw_forkfish",
+        "file_name": "raw_forkfish",
         "water": [
             "ocean"
         ],
@@ -902,6 +958,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "unusualfishmod:raw_snowflake",
+        "file_name": "raw_snowflake_tail_fish",
         "water": [
             "fresh"
         ],
@@ -929,6 +987,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "aquaculture:gar",
+        "file_name": "gar",
         "water": [
             "fresh"
         ],
@@ -962,6 +1022,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:goldfish",
+        "file_name": "goldfish",
         "water": [
             "ocean"
         ],
@@ -990,6 +1052,8 @@
             "spring",
             "winter"
         ],
+        "id": "unusualfishmod:raw_hatchetfish",
+        "file_name": "raw_hatchetfish",
         "water": [
             "fresh"
         ],
@@ -1028,6 +1092,8 @@
             "spring",
             "summer"
         ],
+        "id": "aquaculture:jellyfish",
+        "file_name": "jellyfish",
         "water": [
             "ocean"
         ],
@@ -1065,6 +1131,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "crittersandcompanions:koi_fish",
+        "file_name": "koi_fish",
         "water": [
             "fresh"
         ],
@@ -1098,6 +1166,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:leech",
+        "file_name": "leech",
         "water": [
             "fresh",
             "river"
@@ -1132,6 +1202,8 @@
         "seasons": [
             "year_round"
         ],
+        "id": "aquaculture:minnow",
+        "file_name": "minnow",
         "water": [
             "fresh",
             "river"
@@ -1190,6 +1262,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "aquaculture:muskellunge",
+        "file_name": "muskellunge",
         "water": [
             "river"
         ],
@@ -1223,6 +1297,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "aquaculture:pacific_halibut",
+        "file_name": "pacific_halibut",
         "water": [
             "ocean"
         ],
@@ -1252,6 +1328,8 @@
             "autumn",
             "winter"
         ],
+        "id": "aquaculture:perch",
+        "file_name": "perch",
         "water": [
             "fresh"
         ],
@@ -1299,6 +1377,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "unusualfishmod:raw_picklefish",
+        "file_name": "raw_picklefish",
         "water": [
             "ocean"
         ],
@@ -1327,6 +1407,8 @@
             "spring",
             "winter"
         ],
+        "id": "aquaculture:pink_salmon",
+        "file_name": "pink_salmon",
         "water": [
             "river"
         ],
@@ -1364,6 +1446,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:piranha",
+        "file_name": "piranha",
         "water": [
             "fresh"
         ],
@@ -1391,6 +1475,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "aquaculture:pollock",
+        "file_name": "pollock",
         "water": [
             "ocean"
         ],
@@ -1420,6 +1506,8 @@
             "summer",
             "autumn"
         ],
+        "id": "minecraft:pufferfish",
+        "file_name": "pufferfish",
         "water": [
             "ocean"
         ],
@@ -1467,6 +1555,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "aquaculture:rainbow_trout",
+        "file_name": "rainbow_trout",
         "water": [
             "river"
         ],
@@ -1494,6 +1584,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:red_grouper",
+        "file_name": "red_grouper",
         "water": [
             "ocean"
         ],
@@ -1521,6 +1613,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "aquaculture:red_shrooma",
+        "file_name": "red_shrooma",
         "water": [
             "ocean"
         ],
@@ -1548,6 +1642,8 @@
         "seasons": [
             "autumn"
         ],
+        "id": "unusualfishmod:raw_sailor_barb",
+        "file_name": "raw_sailor_barb",
         "water": [
             "ocean"
         ],
@@ -1576,6 +1672,8 @@
             "summer",
             "autumn"
         ],
+        "id": "minecraft:salmon",
+        "file_name": "salmon",
         "water": [
             "river"
         ],
@@ -1621,6 +1719,8 @@
             "summer",
             "autumn"
         ],
+        "id": "aquaculture:smallmouth_bass",
+        "file_name": "smallmouth_bass",
         "water": [
             "river"
         ],
@@ -1668,6 +1768,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "unusualfishmod:raw_sneep_snorp",
+        "file_name": "raw_sneep_snorp",
         "water": [
             "ocean"
         ],
@@ -1701,6 +1803,8 @@
         "seasons": [
             "spring"
         ],
+        "id": "unusualfishmod:raw_spindlefish",
+        "file_name": "raw_spindlefish",
         "water": [
             "ocean"
         ],
@@ -1728,6 +1832,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "aquaculture:starshell_turtle",
+        "file_name": "starshell_turtle",
         "water": [
             "river"
         ],
@@ -1755,6 +1861,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:synodontis",
+        "file_name": "synodontis",
         "water": [
             "river"
         ],
@@ -1782,6 +1890,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:tambaqui",
+        "file_name": "tambaqui",
         "water": [
             "river"
         ],
@@ -1809,6 +1919,8 @@
         "seasons": [
             "winter"
         ],
+        "id": "unusualfishmod:raw_triple_twirl_pleco",
+        "file_name": "raw_triple_twirl_pleco",
         "water": [
             "ocean"
         ],
@@ -1837,6 +1949,8 @@
             "spring",
             "summer"
         ],
+        "id": "minecraft:tropical_fish",
+        "file_name": "tropical_fish",
         "water": [
             "ocean"
         ],
@@ -1874,6 +1988,8 @@
         "seasons": [
             "summer"
         ],
+        "id": "aquaculture:tuna",
+        "file_name": "tuna",
         "water": [
             "ocean"
         ],

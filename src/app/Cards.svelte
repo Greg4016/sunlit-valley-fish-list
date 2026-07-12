@@ -19,6 +19,11 @@
                 onclick={() => { filtered[name].done = !filtered[name].done }}
                 oncontextmenu={(ev) => { ev.preventDefault(); filtered[name].highlighted = !filtered[name].highlighted }}
             >
+                {#if filtered[name].file_name}
+                    <!-- svelte-ignore a11y_missing_attribute -->
+                    <img src="/fish_pics/{filtered[name].file_name}.png" />
+                    <div>{filtered[name].id}</div>
+                {/if}
                 <div class="name">{name}</div>
                 <div>Season: { filtered[name].season_text }</div>
                 <div>Water: { filtered[name].water_text }</div>
@@ -77,6 +82,13 @@
             border: 6px solid var(--card-border);
             text-wrap: nowrap;
             user-select: none;
+
+
+            img {
+                width: 64px;
+                aspect-ratio: 1;
+                image-rendering: pixelated;
+            }
 
 
             .name {
