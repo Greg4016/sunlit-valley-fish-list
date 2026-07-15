@@ -93,17 +93,19 @@
             }
 
 
+            &.nether {
+                color: var(--col-nether);
+                background-color: var(--card-bg-nether);
+                border-color: var(--card-border-nether);
+            }
+
+
             &.done {
                 opacity: 50%;
             }
 
             &.highlighted {
                 border-color: #33a7dd;
-            }
-
-            &.nether {
-                --card-bg:   #7e6469;
-                --card-border: #54383e;
             }
         }
     }

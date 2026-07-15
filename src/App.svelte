@@ -68,15 +68,21 @@
     :global(body:has(.theme.dark)) {
         --bg: rgb(105, 98, 86);
         --card-bg: #868074;
+        --card-bg-nether: #7e6469;
         --card-border: #afa078;
+        --card-border-nether: #54383e;
         --col: white;
+        --col-nether: #e6c7cd;
     }
 
     :global(body:has(.theme.light)) {
         --bg: #f9f0dc;
         --card-bg: #fffaee;
-        --card-border: #e9d9b1;
+        --card-bg-nether: #cd687c;
+        --card-border: #d7c8a2;
+        --card-border-nether: #98334a;
         --col: rgb(71, 71, 71);
+        --col-nether: #2d2d2d;
     }
 
 </style>
