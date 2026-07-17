@@ -6,10 +6,23 @@
     import type { Fish } from "./lib/fish_type";
 
 
-
-    let fishes = useLocalStorage('fishing_data', 
-        data
+    let user_fish_data = useLocalStorage('user_fish_data', 
+        {}
     )
+
+    let fishes = $derived.by(() => {
+        let init = structuredClone(data)
+
+        if(user_fish_data.value) {
+
+            (Object.keys(user_fish_data.value) as Array<keyof typeof data>).forEach((name) => {
+                init[name].done = user_fish_data.value[name].done
+                init[name].highlighted = user_fish_data.value[name].highlighted
+            })
+        }
+        
+        return init
+    })
 
     let filter_overworld : CallableFunction[] = $state([])
 
@@ -22,11 +35,11 @@
     let filtered = $derived.by(() => {
 
         let filtered_overworld = Object.fromEntries(
-            Object.entries(fishes.value).filter(([name, val]) => val.dim == 'overworld' &&  filter_overworld.every(cond => cond(val)) )
+            Object.entries(fishes).filter(([name, val]) => val.dim == 'overworld' &&  filter_overworld.every(cond => cond(val)) )
         )
 
         let filtered_nether = Object.fromEntries(
-            Object.entries(fishes.value).filter(([name, val]) => val.dim == 'nether' )
+            Object.entries(fishes).filter(([name, val]) => val.dim == 'nether' )
         )
 
         
@@ -58,7 +71,7 @@
 
     <br>
 
-    <Cards filtered={ filtered } />
+    <Cards filtered={ filtered } bind:user_fish_data={user_fish_data}/>
 </div>
 
 

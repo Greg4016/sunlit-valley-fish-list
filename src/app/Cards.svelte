@@ -1,6 +1,22 @@
 <script>
 
-    let { filtered } = $props()
+    let { filtered, user_fish_data = $bindable() } = $props()
+
+
+    function toggleProp(name, prop) {
+        if(!user_fish_data.value[name])
+            user_fish_data.value[name] = { done: false, highlighted: false }
+
+
+        if(prop == 'done')
+            user_fish_data.value[name].done = !user_fish_data.value[name].done
+        if(prop == 'highlighted')
+            user_fish_data.value[name].highlighted = !user_fish_data.value[name].highlighted
+
+        if( !user_fish_data.value[name].done && !user_fish_data.value[name].highlighted )
+            delete user_fish_data.value[name]
+        
+    }
 
 
 </script>
@@ -10,13 +26,21 @@
 <div class="main">
     {#each Object.keys(filtered) as name }
 
-        <div class="card" 
+        <!-- <div class="card" 
             class:nether={filtered[name].dim == 'nether'} 
             class:done={filtered[name].done} 
             class:highlighted={filtered[name].highlighted} 
 
             onclick={() => { filtered[name].done = !filtered[name].done }}
             oncontextmenu={(ev) => { ev.preventDefault(); filtered[name].highlighted = !filtered[name].highlighted }}
+        > -->
+        <div class="card" 
+            class:nether={filtered[name].dim == 'nether'} 
+            class:done={filtered[name].done} 
+            class:highlighted={filtered[name].highlighted} 
+
+            onclick={() => { toggleProp(name, 'done') }}
+            oncontextmenu={(ev) => { ev.preventDefault(); toggleProp(name, 'highlighted') }}
         >
             <!-- svelte-ignore a11y_missing_attribute -->
             <img src="/fish_pics/{filtered[name].file_name}.png" />
