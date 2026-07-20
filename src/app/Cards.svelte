@@ -1,4 +1,6 @@
 <script>
+    import SeasonCircle from "./SeasonCircle.svelte";
+
 
     let { filtered, user_fish_data = $bindable() } = $props()
 
@@ -26,14 +28,6 @@
 <div class="main">
     {#each Object.keys(filtered) as name }
 
-        <!-- <div class="card" 
-            class:nether={filtered[name].dim == 'nether'} 
-            class:done={filtered[name].done} 
-            class:highlighted={filtered[name].highlighted} 
-
-            onclick={() => { filtered[name].done = !filtered[name].done }}
-            oncontextmenu={(ev) => { ev.preventDefault(); filtered[name].highlighted = !filtered[name].highlighted }}
-        > -->
         <div class="card" 
             class:nether={filtered[name].dim == 'nether'} 
             class:done={filtered[name].done} 
@@ -48,6 +42,7 @@
 
                 
                 <div class="name">{name}</div>
+                <!-- <SeasonCircle spring /> -->
                 
                 {#if filtered[name].dim == 'overworld'}
                     <div>Season: { filtered[name].season_text }</div>
