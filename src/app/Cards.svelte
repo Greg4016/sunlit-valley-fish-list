@@ -37,7 +37,7 @@
             oncontextmenu={(ev) => { ev.preventDefault(); toggleProp(name, 'highlighted') }}
         >
             <!-- svelte-ignore a11y_missing_attribute -->
-            <img src="/fish_pics/{filtered[name].file_name}.png" />
+            <img src="fish_pics/{filtered[name].file_name}.png" />
             <div class="data">
 
                 
